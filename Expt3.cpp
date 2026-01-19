@@ -1,3 +1,4 @@
+//Linear Search
 #include <iostream>
 using namespace std;
 
@@ -6,7 +7,7 @@ int main() {
     cout << "Enter array size: ";
     cin >> n;
     
-    int arr[n];  // declare array
+    int arr[n]; 
     cout << "Enter " << n << " elements: ";
     for(int i = 0; i < n; i++) {
         cin >> arr[i];
@@ -21,7 +22,7 @@ int main() {
     {
         if(arr[i] == key) 
         {
-         flag = true;  // FIXED: use = not ==
+         flag = true;  
               cout << "Found at position: " << i << endl;
            break;
         }
@@ -34,4 +35,5 @@ int main() {
     }
     
     return 0;
+
 }
