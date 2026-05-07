@@ -1,4 +1,4 @@
-//BFS 
+//BFS (Breadth First Search)
 #include <iostream>
 #include <vector>
 #include <queue>
